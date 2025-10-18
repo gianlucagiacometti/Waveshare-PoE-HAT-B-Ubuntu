@@ -1,4 +1,4 @@
-# -Waveshare-PoE-HAT-B-Ubuntu
+# Waveshare-PoE-HAT-B-Ubuntu
 
 Specifically for this PoE-HAT: https://www.waveshare.com/wiki/PoE_HAT_(B)
 
