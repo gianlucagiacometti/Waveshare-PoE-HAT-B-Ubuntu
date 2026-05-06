@@ -30,3 +30,26 @@ python3 /opt/bin/main.py &
 or 
 
 create an systemd service according to Ubuntu standards
+
+insert in /etc/systemd/system/poe-hat-b.service
+
+```
+[Unit]
+Description=PoE HAT (B) OLED
+After=network.target
+
+[Service]
+ExecStart=/usr/bin/python3 /opt/bin/main.py
+WorkingDirectory=/opt/bin
+StandardOutput=journal
+StandardError=journal
+Restart=always
+
+[Install]
+WantedBy=multi-user.target
+```
+
+then run
+
+systemctl daemon-reload
+systemctl enable poe-hat-b
