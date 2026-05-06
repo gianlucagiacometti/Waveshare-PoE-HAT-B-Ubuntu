@@ -6,13 +6,12 @@ This is a result of adaptation of https://github.com/grootwitbaas/Waveshare-PoE-
 
 It works on Raspberry Pi 4B 64-bit with Ubuntu 64.
 
-## Install ##
+## Install on 26.04 ##
 
 1. apt update
-2. apt install gcc python3-dev python3-numpy  python3-smbus python3-libgpiod libbcm2835-dev
-3. pip install RPi.GPIO
-4. git clone https://github.com/gianlucagiacometti/Waveshare-PoE-HAT-B-Ubuntu.git
-5. copy /bin /lib /cfg into /opt
+2. apt install gcc python3-dev python3-numpy  python3-smbus python3-libgpiod libbcm2835-dev python3-rpi.gpio python3-pil
+3. git clone https://github.com/gianlucagiacometti/Waveshare-PoE-HAT-B-Ubuntu.git
+4. copy /bin /lib /cfg into /opt
 
 ## Test ##
 
